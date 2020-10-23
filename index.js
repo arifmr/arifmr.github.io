@@ -3,8 +3,11 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
-
 let shuffledQuestions, currentQuestionIndex
+
+function bgm1() {
+  var bgm1 = document.getElementById("bgm1").autoplay;
+}
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
